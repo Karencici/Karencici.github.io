@@ -35,11 +35,11 @@ pic.avatars.push(
     "https://spy-family.net/assets/img/special/episode12/06.png",
 );
 
-const titles = ["First-Grade Student", "Test Subject 007", "Telepath"];
+const titles = ["Hi", "I am huaid x", "17 years old"];
 
 const about = [
-    "My name is Anya Forger. I am 6 years old now!",
-    "I am studing in Cecile Hall at Eden Academy.",
+    "My name is huaid x. I am 17 years old now!",
+    "I am studing in Hsinchu at .",
     "",
     "This summer I went to NTNU CSIE Camp to learn how to code.",
     "During the camp, I learned how to: ",
@@ -56,7 +56,7 @@ const projects = [
     {
         name: "My Portfolio Website",
         description: "A portfolio website for myself that I developed in NTNU CSIE Camp.",
-        image: "https://spy-family.net/assets/img/special/wall02.jpg",
+        image: "good-student.jpg",
         skills: ["Vue", "Tailwind", "Node.js", "GitHub"],
         url: "https://github.com/anya-forger/anya-forger.github.io",
     },

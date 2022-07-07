@@ -18,7 +18,7 @@ function update(delay = 0) {
 <template>
     <div class="h-full w-full px-8 pt-8 sm:px-12 sm:pt-12 lg:px-16 lg:pt-16">
         <Typing
-            text="About Me"
+            text="edward's website"
             @done="step++"
             class="mb-8 block text-2xl sm:text-3xl lg:text-4xl"
         />
