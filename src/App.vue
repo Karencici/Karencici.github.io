@@ -1,6 +1,5 @@
 <script setup>
 import { useRouter } from "vue-router";
-import { StarportCarrier } from "vue-starport";
 import Nav from "./components/Nav.vue";
 
 const router = useRouter();
@@ -15,7 +14,7 @@ if (from) {
 </script>
 
 <template>
-    <StarportCarrier>
+    <div>
         <Nav />
 
         <div class="mt-16 h-[calc(100vh-4rem)] w-full overflow-y-auto overflow-x-hidden">
@@ -33,5 +32,5 @@ if (from) {
                 </transition>
             </router-view>
         </div>
-    </StarportCarrier>
+    </div>
 </template>
