@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import MdiGithub from "~icons/mdi/github";
 import MdiInstagram from "~icons/mdi/instagram";
+import MdiFacebook from "~icons/mdi/facebook";
 import { pic, titles } from "../anya";
 import Typing from "../components/Typing.vue";
 
@@ -35,6 +36,15 @@ const width = screen.width;
                 >
                     <MdiInstagram class="mr-1 inline-block" />
                     <Typing v-if="step > 2" @done="step++" text="Instagram" :speed="60" />
+                </a>
+                <a
+                    v-if="step > 3"
+                    class="mt-4 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
+                    href="https://www.facebook.com/profile.php?id=100026848729296"
+                    target="_blank"
+                >
+                    <MdiFacebook class="mr-1 inline-block" />
+                    <Typing v-if="step > 3" @done="step++" text="Facebook" :speed="60" />
                 </a>
             </div>
             <div class="w-full overflow-hidden drop-shadow-2xl">
